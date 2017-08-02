@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+  <include layout="@layout/login_actionbar"></include>
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/default_icon"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="@string/account"
+            android:textSize="20sp"
+            android:textColor="@color/textColor"
+            />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/textColor"
+            android:hint="请输入昵称"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/userPass"
+            android:textSize="20sp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/textColor"
+            />
+        <EditText
+            android:id="@+id/userPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/textColor"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="@string/loginString" />
+
+    <TextView
+        android:id="@+id/getPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/forgetPass"
+        android:textColor="#5576dc"
+        android:textStyle="bold" />
+    <ProgressBar
+       android:id="@+id/progressBar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       style="@style/Base.TextAppearance.AppCompat.Inverse"
+       android:layout_gravity="center"
+       android:padding="20dp"
+       android:visibility="invisible"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_height="2px"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:background="?attr/colorButtonNormal"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            />
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="2px"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:background="?attr/colorButtonNormal"
+           android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_wechat"
+            android:layout_width="40dp"
+            android:layout_height="49dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerInside"
+            android:src="@drawable/wechat_icon" />
+
+        <ImageButton
+            android:id="@+id/btn_blog"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerInside"
+            android:src="@drawable/blog_icon" />
+
+        <ImageButton
+            android:id="@+id/btn_qq"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="45dp"
+            android:background="@color/colorWhite"
+            android:scaleType="centerInside"
+            android:src="@drawable/qq_icon" />
+    </LinearLayout>
+</LinearLayout>

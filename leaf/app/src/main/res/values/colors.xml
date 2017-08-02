@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f7376d94</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonColor">#9d9cf7e2</color>
+    <color name="textColor">#232629</color>
+    <color name="colorGray">#A8A8A8</color>
+    <color name="background">#DCDCDC</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="TextPressed">#686464</color>
+    <color name="itemText">#2c3033</color>
+    <color name="split_line">#99e1dede</color>
+    <!-- 标题栏按钮背景颜色 -->
+    <drawable name="button_backward_pressed">#A8A8A8</drawable>
+    <drawable name="button_backward_normal">#0000</drawable>
+    <drawable name="item_pressed">#686464</drawable>
+    <drawable name="item_normal">#0000</drawable>
+</resources>

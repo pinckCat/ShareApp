@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+ <com.elifen.leaf.view.CoustomImageView
+     android:layout_marginTop="10dp"
+     android:id="@+id/iv_head"
+     android:layout_width="30dp"
+     android:layout_height="30dp"
+     android:layout_marginLeft="10dp"
+     />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        >
+     <TextView
+         android:id="@+id/userName"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textSize="18sp"
+         />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            />
+        <TextView
+            android:id="@+id/commentText"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@color/split_line" />
+    </LinearLayout>
+</LinearLayout>

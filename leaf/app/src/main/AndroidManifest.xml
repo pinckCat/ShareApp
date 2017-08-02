@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elifen.leaf">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 向SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/desktop"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.zzti.fengyongge.imagepicker.PhotoSelectorActivity" />
+        //选择图片
+        <activity android:name="com.zzti.fengyongge.imagepicker.PhotoPreviewActivity" />
+        //预览图片
+        <activity
+            android:name=".UIActivity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIActivity.StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UIActivity.LoginSuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".UIActivity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIActivity.Person_informationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIActivity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIActivity.CreatePostActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UIActivity.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".UIActivity.Edit_nickNameActivity" />
+        <activity android:name=".UIActivity.Edit_sexActivity" />
+        <activity android:name=".UIActivity.Edit_descriptionActivity" />
+        <activity android:name=".UIActivity.PostdetailActivity" />
+        <activity android:name=".UIActivity.CreateTopicActivity" />
+        <activity android:name=".UIActivity.PostOfTopicActivity" />
+        <activity android:name=".UIActivity.FavoriteActivity" />
+        <activity android:name=".UIActivity.MyfansActivity" />
+        <activity android:name=".UIActivity.CreateTopicPostActivity" />
+        <activity android:name=".UIActivity.NewsDetailsActivity" />
+        <activity android:name=".UIActivity.TechNewsActivity" />
+        <activity android:name=".UIActivity.ChangePassActivity" />
+        <activity android:name=".UIActivity.PersonDetailActivity" />
+        <activity android:name=".UIActivity.AboutActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">壹点</string>
+    <string name="loginString">登陆</string>
+    <string name="account">账 号:</string>
+    <string name="userPass">密 码:</string>
+    <string name="forgetPass">忘记了密码？</string>
+    <string name="login">第三方登陆</string>
+    <string name="register">注册</string>
+    <string name="back">返回</string>
+    <string name="LRActivity_UserNameNull">用户名不能为空</string>
+    <string name="LRActivity_PasswordNull">密码不能为空</string>
+    <string name="SettingActivity_Waiting">正在修改...;</string>
+    <string name="string_PhoneNum">手机号码:</string>
+    <string name="password">登陆密码:</string>
+    <string name="loginAccount">登陆账号:</string>
+    <string name="me">我</string>
+    <string name="set">设置</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

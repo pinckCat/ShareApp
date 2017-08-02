@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.elifen.leaf.UIActivity.LoginSuccessActivity"
+    >
+    <FrameLayout
+        android:id="@+id/homePage_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        >
+    </FrameLayout>
+
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="1sp"
+     android:layout_gravity="center"
+     android:background="?attr/colorButtonNormal" />
+    <include layout="@layout/activity_bottom"/>
+</LinearLayout>
