@@ -7,4 +7,4 @@ leaf是前段工程代码，MyAndroidServer是
 后台代码，
 本人小白一枚，第一次写完整项目，欢迎大神们star和指正。
 下面是一些运行截图：
-![img](https://github.com/pinckCat/ShareApp/raw/master/screenshots/19.png)
+![ALl text](https://github.com/pinckCat/ShareApp/raw/master/screenshots/19.png)
