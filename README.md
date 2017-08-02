@@ -7,5 +7,6 @@ leaf是前段工程代码，MyAndroidServer是
 后台代码，
 本人小白一枚，第一次写完整项目，欢迎大神们star和指正。
 下面是一些运行截图：
-![](https://github.com/pinckCat/ShareApp/raw/master/screenshots/19.png)
-<img width="150" height="150" src="https://github.com/pinckCat/ShareApp/raw/master/screenshots/19.png"/>
+<img width="200" height="350" src="https://github.com/pinckCat/ShareApp/raw/master/screenshots/19.png"/>
+<img width="200" height="350" src="https://github.com/pinckCat/ShareApp/raw/master/screenshots/13.png"/>
+<img width="200" height="350" src="https://github.com/pinckCat/ShareApp/raw/master/screenshots/3.png"/>
