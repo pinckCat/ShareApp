@@ -5,4 +5,4 @@
 后台用eclipse开发（javabean+servlet)，
 leaf是前段工程代码，MyAndroidServer是
 后台代码，
-本人小白一枚，第一次写完整项目，欢迎大神们star和指正本人。
+本人小白一枚，第一次写完整项目，欢迎大神们star和指正。
